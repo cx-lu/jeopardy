@@ -21,7 +21,7 @@ class App extends Component {
 
   componentDidMount() {
     fetch(
-      "https://jservice.io/api/clues?value=" +
+      "https://cors-anywhere.herokuapp.com/http://jservice.io/api/clues?value=" +
         this.state.difficulty +
         "&category=" +
         this.state.category +
